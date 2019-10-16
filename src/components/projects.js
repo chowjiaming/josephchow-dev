@@ -10,7 +10,7 @@ function Projects() {
       query {
         github {
           viewer {
-            repositories(privacy: PUBLIC, affiliations: OWNER, first: 8, orderBy: {field: CREATED_AT, direction: DESC}) {
+            repositories(privacy: PUBLIC, affiliations: OWNER, first: 9, orderBy: {field: CREATED_AT, direction: DESC}) {
               nodes {
                 owner {
                   login
